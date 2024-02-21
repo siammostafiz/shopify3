@@ -1,0 +1,124 @@
+/* .box {
+    width: 260px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display:inline-block;
+    margin: 2px;
+  }
+   */
+
+   span {
+    color: green; /* Set the text color of the span tag to green */
+  }
+  
+
+   .box {
+    width: 260px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 2px;
+    text-align: left;
+    transition: all 0.3s ease; /* Add smooth transition for the hover effect */
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Scale the box slightly on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow on hover */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  img {
+    width: 100%;
+    border-radius: 5px;
+    /* margin-bottom: 1px; */
+    margin-top: 10px;
+    
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+  }
+  
+  p {
+    font-size: 14px;
+    /* line-height: 1.5; */
+  }
+  
+.imp{
+    text-align: center;
+}
+
+
+
+  .imp h1 {
+    font-size: 22px;
+    font-weight: bold;
+
+  }
+  
+  .imp p {
+    color: navy;
+    font-size: 14px;
+  }
+  
+
+  
+
+  .box img {
+    width: 50px; /* Adjust the value to your desired smaller size */
+}
+
+
+*{
+    margin: auto;
+    padding: 2px;
+    box-sizing: border-box;
+    max-width:1200px;
+    margin-top: 10px;
+    
+} 
+
+
+
+.Footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Footer img {
+    width: 50px;
+    margin: 0 5px; /* Add a small space of 5px between each image */
+  }
+  
+
+  .Siam {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center-align the content horizontally */
+    align-items: center; /* Center-align the content vertically */
+    flex-wrap: wrap; /* Allow items to wrap if they exceed the width of the container */
+  }
+  
+  .Siam .box {
+    margin: 20px; /* Add margin around each box for spacing */
+  }
+  
